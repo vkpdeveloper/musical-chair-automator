@@ -42,7 +42,7 @@ case class ResourceID(
 
 object YouTubeClient {
   implicit val backend: WebSocketSyncBackend = HttpClientSyncBackend()
-  private val API_KEY: String = "AIzaSyD9SgDKb8qHU8aAdD42Ol4-MVvauYnmbh4"
+  private val API_KEY: String = "AIzaSyD9SgDKb8qHU8aAdD42Ol4-MVvauYnmbh4" // It's a fake key
 
   private val silentLogger = ProcessLogger(_ => (), _ => ())
 
